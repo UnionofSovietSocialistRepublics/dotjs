@@ -6,10 +6,18 @@ body {
     background-color: black;
     justify-content: center;
     display: flex;
+    text-align: center;
 }
 
 div {
     width: auto;
     height: auto;
     background-color: transparent;
+}
+
+#image {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(101, 12, 91, 12);
+    padding-top: 150px;
 }
