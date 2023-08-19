@@ -1,0 +1,28 @@
+.inline-class,
+.block-class,
+.inline-block-class{
+height: 40px;
+margin-top: 120px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: larger;
+line-height: 40px;
+}
+
+.inline-class span, .inline-block-class, .block-class span span {
+    padding: 5px 1px;
+    border: 1px solid red;
+    border-radius: 1px;
+    background-color: yellow;
+}
+
+.inline-class span {
+    display: inline;
+}
+
+.block-class span {
+    display: block;
+}
+
+.inline-block-class span {
+    display: inline-block;
+}
