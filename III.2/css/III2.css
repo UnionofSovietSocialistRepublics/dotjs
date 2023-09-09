@@ -1,0 +1,51 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+
+    /*BLACK box*/
+    display: flex;
+    height: 800px;
+    flex-flow: row nowrap;
+}
+
+nav{
+    /*Respond*/
+    width: 20%;
+
+    background-color: rgb(255, 255, 0);
+}
+
+.Store{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header{
+    background-color: azure;
+    width: 100%;
+    min-height: 200px;
+}
+
+article{
+    width: 80%;
+    background-color: paleturquoise;
+}
+
+footer{
+    background-color: navajowhite;
+    width: 100%;
+    min-height: 200px;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 400px;
+}
+
+aside{
+    width: 20%;
+    background-color: blueviolet;
+}
