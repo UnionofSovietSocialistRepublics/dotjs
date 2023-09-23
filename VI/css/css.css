@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-size: 16px;*/
+    line-height: 1.5;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+/* Bav Styles*/
+html{
+    scroll-behavior: smooth
+    ;
+}
+
+nav{
+    color:wheat !important;
+    background-color: black !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 10px;
+}
+
+.navanax{
+    color:wheat;
+    padding: 12px 15px;
+    height: 100%;
+    font-weight: 850;
+    font-size: larger;
+    
+}   
+
+.navanax:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#Hum{
+    max-width: 80%;
+    margin: auto;
+}
+
+.Mid{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#Bout, #Membur{
+    padding: 64px 0;
+    text-align: center;
+}
+
+/*roof*/
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.III{
+    width: 33%;
+}
+
+/*context*/
+.inp{
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+ .Former-button{
+    background-color: wheat;
+    color:whitesmoke;
+    font-weight: 700;
+    font-size: large;
+    padding: 12px 24px;
+    border: 10px;
+ }
+
+ .Former-button:hover{
+    background-color: #ccc;
+    color: black;
+ }
