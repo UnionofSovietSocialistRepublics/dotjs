@@ -1,0 +1,57 @@
+*{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title-section {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+.body{
+    margin: 0 auto;
+}
+
+.title-section .title{
+    font-size: 40px;
+}
+
+.title-section .row {
+    background-color: aqua;
+    height: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.main-section .item{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item .avatard {
+    background-color: aliceblue;
+    min-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 10px;
+
+}
+
+.item .text .og{
+    font-weight: 700;
+    margin-top: 10px;
+}
